@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    box-sizing:border-box;
+}
+body{
+    background-color:rgb(252, 201, 252);
+    color:white;
+    margin:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    min-height:100vh;
+    
+}
+.pw-container{
+    background-color: rgb(201, 96, 201);
+    width:300px;
+    border:none;
+    box-shadow:0 4px 10px rgba(0,0,0,0.5);
+   
+}
+.pw-header{
+    padding:0.75rem;
+}
+.pw-body{
+    padding:0rem 0.75rem;
+    height:140px;
+}
+.pw{
+    width:100%;
+    height:55px;
+    background-color: rgb(252, 201, 252);
+    position:relative;
+    font-size:1.5rem;
+    padding:0.5rem 1rem;
+    overflow-x:auto;
+}
+.pw button{
+    background-color: rgb(80, 43, 80);
+    color:white;
+    position:absolute;
+    bottom:0;
+    left:50%;
+    font-weight:bold;
+    transform:translate(0,20%);   /*look into this*/
+    transition:opacity 0.2s ease,transform 0.2s ease;
+    opacity:0;
+    cursor:pointer;
+}
+
+.pw:hover button{
+    opacity:1;
+}
+.form-control{
+    display:flex;
+    justify-content:space-between;
+}
+.generate{
+    background-color:white;
+    color:purple;
+    border:none;
+    display:block;
+    font-weight:bold;
+    font-size:1rem;
+    padding:1rem;
+    width:100%;
+    height:38px;
+   
+
+    
+}
